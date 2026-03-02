@@ -1,4 +1,4 @@
 name = input("What is your name")
-age = input("What is your age")
+age = input("How old are you")
 
-print("welcome" ,  name , age +  "!")
+print(f"welcome {name}! You are {age} years old")
