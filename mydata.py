@@ -1,5 +1,11 @@
-name = input("What is your name? ").strip().title()
-age = input("How old are you? ").strip()
+user_name = input("What is your name? ").strip().title()
+
+
+# check if name is on database
+if user_name in names_database:
+    age = input("How old are you? ").strip()
+    else
+message = f"Your name does nor exist"
 
 # Validate age is a number
 while not age.isdigit():
